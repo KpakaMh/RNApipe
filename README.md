@@ -70,7 +70,7 @@ Unlike monolithic procedural scripts, **RNApipe** applies software engineering b
                            ┌───────────────────┐
                            │ ScRNASeqPipeline  │
                            └───────────────────┘
-### Repository Structure
+  ### Repository Structure
 
 * **`assets/`** — Portfolio visual previews rendered in the README (`300 DPI` PNG figures).
 * **`config/`**
