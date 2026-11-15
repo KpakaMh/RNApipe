@@ -1,0 +1,12 @@
+# Environnements virtuels et caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Données volumineuses et résultats temporaires (les figures clés sont dans assets/)
+data/*.h5ad
+results/
+!assets/

@@ -1,0 +1,26 @@
+﻿project:
+  name: "RNApipe"
+  tissue: "human_epithelial"
+
+paths:
+  raw_data: "data/raw.h5ad"
+  qc_data: "data/01_qc_norm.h5ad"
+  clustered_data: "data/02_clustered.h5ad"
+  annotated_data: "data/03_annotated.h5ad"
+  figures_dir: "results/figures"
+  tables_dir: "results/tables"
+
+qc:
+  min_genes: 200
+  max_genes: 6000
+  min_cells: 3
+  max_pct_mt: 15.0
+
+preprocessing:
+  target_sum: 10000
+  n_top_genes: 2000
+
+dimred_clustering:
+  n_pcs: 30
+  n_neighbors: 15
+  leiden_resolution: 0.5
